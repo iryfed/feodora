@@ -1,0 +1,80 @@
+::-webkit-input-placeholder {
+  color: #ebebeb;
+  font-size: .9em;
+}
+
+::-moz-placeholder {
+  color: #ebebeb;
+  font-size: .9em;
+}
+
+:-ms-input-placeholder {
+  color: #ebebeb;
+  font-size: .9em;
+}
+
+::-ms-input-placeholder {
+  color: #ebebeb;
+  font-size: .9em;
+}
+
+::placeholder {
+  color: #ebebeb;
+  font-size: .9em;
+}
+
+.form-block__label {
+  display: block;
+  margin: 20px 0 10px 0; 
+  font-size: .9em;
+  font-weight: bold;
+  color: #999;
+}
+
+.form-block__input {
+  display: block;
+  width: 100%;
+  padding: 10px 16px;
+  margin: 10px 0 20px 0;
+  border: solid 1px #ebebeb;
+  border-radius: 2px;
+}
+
+.btn-submit { 
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  
+  font-size: 18px;
+  color: #fff;
+  
+  background-color: #ff4e2e;
+  border: 1px solid #ff4e2e;
+}
+
+.btn-submit:hover,
+.btn-submit:focus,
+.btn-submit:active {
+  color: #fff;
+  
+  background-color: #fc557c;
+  border-color: #fc557c;
+
+  cursor: pointer;
+}
+
+@media (min-width: 320px) {
+    
+  .btn-submit {
+    padding: 25px 40px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  
+  .btn-submit {
+    padding: 15px 70px;
+  }
+
+}

@@ -1,0 +1,41 @@
+@media (min-width: 320px) {
+    
+ .modal {
+    width: 90%;
+  }
+  
+}
+
+@media (min-width: 1024px) {
+  .modal {
+    width: 60%;
+  }
+}
+
+.modal {
+  z-index: 10;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+
+.modal a.close-modal,
+.modal a.close-modal:hover,
+.modal a.close-modal:focus,
+.modal a.close-modal:active {
+  position: absolute;
+  top: -12.5px;
+  right: -12.5px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  text-indent: -9999px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('img/icon-close.png');
+  text-decoration: none;
+  border: none;
+}
