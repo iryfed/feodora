@@ -39,3 +39,7 @@
   text-decoration: none;
   border: none;
 }
+
+.blocker {
+  z-index: 20;
+}
