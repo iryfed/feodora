@@ -42,7 +42,7 @@
 
 .btn-submit { 
   display: block;
-  width: auto;
+  width: 100%;
   margin: 0 auto;
   
   font-size: 18px;
@@ -66,7 +66,7 @@
 @media (min-width: 320px) {
     
   .btn-submit {
-    padding: 25px 40px;
+    padding: 20px 40px;
   }
 
 }

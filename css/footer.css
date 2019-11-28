@@ -1,17 +1,15 @@
 @media (min-width: 320px) {
     
-  .copyright {
-    padding: 20px 0;
-    font-size: 12px;  
+  .footer {
+    padding: 20px 0;  
   }
   
 }
 
 @media (min-width: 1024px) {
     
-  .copyright {
-    padding: 30px 0;
-    font-size: 16px;  
+  .footer {
+    padding: 30px 0; 
   }
   
 }
@@ -19,9 +17,6 @@
 .footer {
   width: 100%;
   color: #fff;
-  background-color: #31293c;
-}
-
-.copyright {
   text-align: center;
+  background-color: #31293c;
 }
