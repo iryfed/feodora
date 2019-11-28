@@ -3,6 +3,7 @@ $(document).ready(function (){
   $('.btn-call,.btn-call-mobile').click(function() {
 
     var html = `<div id="call-modal" class="modal">
+                  <div class="modal-msg"></div>
                   <form class="form-block" action="#" method="post">
                     <label class="form-block__label" for="itemName">Имя *</label>
                     <input class="form-block__input" id="itemName" type="text" name="itemName" placeholder="Имя" required>
@@ -20,11 +21,11 @@ $(document).ready(function (){
    
    $('form').submit(function() {      
      $.post(
-       'index.html',
+       'https://echo.htmlacademy.ru',
        $('form').serialize(),
        function() {
           $('form').remove();
-          $('#call-modal').append('<h4>Спасибо!</h4><p>Ваш запрос отправлен!<br>Ожидайте звонка в течение 10 минут!</p>');     
+          $('.modal-msg').html('<h4>Спасибо!</h4><p>Ваш запрос отправлен!<br>Ожидайте звонка в течение 10 минут!</p>');     
        }
      );
      return false;
@@ -36,6 +37,7 @@ $(document).ready(function (){
 
     var html = `<div id="order-modal" class="modal">
                   <form class="form-block">
+                    <div class="modal-msg"></div>
                     <label class="form-block__label" for="itemName">Имя *</label>
                     <input class="form-block__input" id="itemName" type="text" name="itemName" placeholder="Имя" required>
                     <label class="form-block__label" for="itemPhone">Телефон *</label>
@@ -54,11 +56,11 @@ $(document).ready(function (){
     
     $('form').submit(function() {      
       $.post(
-        'index.html',
+        'https://echo.htmlacademy.ru',
         $('form').serialize(),
         function() {
           $('form').remove();
-          $('#order-modal').append('<h4>Спасибо!</h4><p>Ваш запрос отправлен!<br>Ожидайте ответа в течение 10 минут!</p>');     
+          $('.modal-msg').html('<h4>Спасибо!</h4><p>Ваш запрос отправлен!<br>Ожидайте ответа в течение 10 минут!</p>');     
         }
       );
       return false;
