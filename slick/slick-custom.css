@@ -63,6 +63,10 @@
    
 }
 
+a {
+  color: #8993ad;
+}
+
 .slick-prev,
 .slick-next {
   top: 40%;
@@ -112,7 +116,7 @@
 }
 .slick-dots li.slick-active button:before {
   opacity: 1;
-  color: #ff4e2e;
+  color: #229a44;
 }
 
 .variable.slider {
