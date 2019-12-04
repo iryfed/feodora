@@ -42,8 +42,8 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #fc557c;
-  border-bottom: 1px solid #fc557c;
+  color: #229a44;
+  border-bottom: 1px solid #229a44;
 }
 
 .sub-title {
@@ -51,16 +51,16 @@ a:focus {
 }
 
 .btn-call {
-  color: #fc557c;
+  color: #229a44;
   background-color: #fff;
-  border: 1px solid #fc557c;
+  border: 1px solid #229a44;
 }
 
 .btn-call:hover,
 .btn-call:active,
 .btn-call:focus {
   color: #fff;
-  background-color: #fc557c;
+  background-color: #229a44;
 
   cursor: pointer;
 }
@@ -68,8 +68,8 @@ a:focus {
 .btn-more {
   color: #fff;
   
-  background-color: #ff4e2e;
-  border: 1px solid #ff4e2e;
+  background-color: #94070f;
+  border: 1px solid #94070f;
 }
 
 .btn-more:hover,
@@ -77,8 +77,8 @@ a:focus {
 .btn-more:active {
   color: #fff;
   
-  background-color: #fc557c;
-  border-color: #fc557c;
+  background-color: #229a44;
+  border-color: #229a44;
 
   cursor: pointer;
 }
@@ -90,10 +90,10 @@ a:focus {
 .section-light__div-bottom {
   position: absolute;
   display: block;
-  color: #fc557c;
+  color: #229a44;
   font-size: 50px;
   font-weight: bold;
-  background-image: linear-gradient(to top right, #fc557c, #ff8c5c);
+  background-image: linear-gradient(to top right, #229a44, #ff8c5c);
   -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
   transition: transform 1s;

@@ -331,12 +331,12 @@
 .section-gradient {
   color: #fff;
   background: -o-linear-gradient(bottom left, 
-              #ff8f5a, #ff8f5a, #ff2f96, #ff2f96);
+              #229a44, #229a44, #94070f, #94070f);
   background: -webkit-gradient(linear, 
               left bottom, right top, 
-              from(#ff8f5a), color-stop(#ff8f5a), color-stop(#ff2f96), to(#ff2f96));
+              from(#229a44), color-stop(#229a44), color-stop(#94070f), to(#94070f));
   background: linear-gradient(to top right, 
-              #ff8f5a, #ff8f5a, #ff2f96, #ff2f96);
+              #229a44, #229a44, #94070f, #94070f);
 }
 
 .bottom-menu {
@@ -356,7 +356,7 @@
 .bottom-menu__link a:hover,
 .bottom-menu__link a:focus,
 .bottom-menu__link a:active {
-  color: #fc557c;
+  color: #229a44;
   text-decoration: none;
 }
 
@@ -373,7 +373,7 @@
 .fa.fa-phone,
 .fa.fa-envelope {
   margin-right: 20px;
-  color: #ff2f96;
+  color: #94070f;
 } 
 
 .bottom-contacts__social {

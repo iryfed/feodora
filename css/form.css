@@ -48,8 +48,8 @@
   font-size: 18px;
   color: #fff;
   
-  background-color: #ff4e2e;
-  border: 1px solid #ff4e2e;
+  background-color: #229a44;
+  border: 1px solid #229a44;
 }
 
 .btn-submit:hover,
@@ -57,8 +57,8 @@
 .btn-submit:active {
   color: #fff;
   
-  background-color: #fc557c;
-  border-color: #fc557c;
+  background-color: #94070f;
+  border-color: #94070f;
 
   cursor: pointer;
 }

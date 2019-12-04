@@ -21,7 +21,7 @@
   }
   
   .top-menu__link_active a {
-    color: #fc557c;
+    color: #229a44;
     border-bottom: none;
   }
   
@@ -38,9 +38,9 @@
     width: 25px;
     margin: 5px 0;
     height: 3px;
-    background: -o-linear-gradient(left, #ff8c5c, #ff2f96);
-    background: -webkit-gradient(linear, left top, right top, from(#ff8c5c), to(#ff2f96));
-    background: linear-gradient(to right, #ff8c5c, #ff2f96);
+    background: -o-linear-gradient(left, #94070f, #229a44);
+    background: -webkit-gradient(linear, left top, right top, from(#94070f), to(#229a44));
+    background: linear-gradient(to right, #94070f, #229a44);
   }
   .top-menu-mobile__item_hide {
     display: none;  
@@ -60,9 +60,9 @@
     margin-right: 20px;
     padding: 6px;
     font-size: 12px;
-    color: #ff2f96;
+    color: #229a44;
     background-color: #fff;
-    border: solid 1px #ff2f96;
+    border: solid 1px #229a44;
     border-radius: 50%;
   }
    
@@ -90,9 +90,9 @@
     width: 45px;
     margin: 7px 0;
     height: 5px;
-    background: -o-linear-gradient(left, #ff8c5c, #ff2f96);
-    background: -webkit-gradient(linear, left top, right top, from(#ff8c5c), to(#ff2f96));
-    background: linear-gradient(to right, #ff8c5c, #ff2f96);
+    background: -o-linear-gradient(left, #94070f, #229a44);
+    background: -webkit-gradient(linear, left top, right top, from(#94070f), to(#229a44));
+    background: linear-gradient(to right, #94070f, #229a44);
   }
  
   .btn-call-mobile {
@@ -128,8 +128,8 @@
   }
 
   .top-menu__link_active a {
-    color: #fc557c;
-    border-bottom: 1px solid #fc557c;
+    color: #229a44;
+    border-bottom: 1px solid #229a44;
   }
   
   .top-contacts__phone {
