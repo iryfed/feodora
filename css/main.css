@@ -18,7 +18,7 @@
   
   .section-light {
     padding: 0;
-    background-color: #fbfbfb;
+    background-color: var(--bg-color-light-section);
   }
   
   .about-container {
@@ -108,7 +108,7 @@
     margin: 10px 0 45px 0;
     line-height: 1.5;
     text-align: center;
-    color: #8993ad;  
+    color: var(--sub-title-color);  
   }
   
   .service-container__icon {
@@ -139,7 +139,7 @@
   }
   
   .section-light {
-    background-color: #fbfbfb;
+    background-color: var(--bg-color-light-section);
   }
     
   .section-gradient {
@@ -233,7 +233,7 @@
     margin: 10px 0;
     line-height: 1.5;
     text-align: center;
-    color: #8993ad;  
+    color: var(--sub-title-color);  
   }
   
   .service-container__icon {
@@ -252,7 +252,7 @@
   }
     
   .section-light {
-    background-color: #fbfbfb;
+    background-color: var(--bg-color-light-section);
   }
     
   .section-gradient {
@@ -325,18 +325,18 @@
 }
 
 .section-light {
-  background-color: #fbfbfb;
+  background-color: var(--bg-color-light-section);
 }
 
 .section-gradient {
   color: #fff;
   background: -o-linear-gradient(bottom left, 
-              #229a44, #229a44, #94070f, #94070f);
+              var(--dark-green-color), var(--dark-green-color), var(--dark-red-color), var(--dark-red-color));
   background: -webkit-gradient(linear, 
               left bottom, right top, 
-              from(#229a44), color-stop(#229a44), color-stop(#94070f), to(#94070f));
+              from(var(--dark-green-color)), color-stop(var(--dark-green-color)), color-stop(var(--dark-red-color)), to(var(--dark-red-color)));
   background: linear-gradient(to top right, 
-              #229a44, #229a44, #94070f, #94070f);
+              var(--dark-green-color), var(--dark-green-color), var(--dark-red-color), var(--dark-red-color));
 }
 
 .bottom-menu {
@@ -350,13 +350,13 @@
 }
 
 .bottom-menu__link a {
-  color: #8993ad;
+  color: var(--sub-title-color);
 }
 
 .bottom-menu__link a:hover,
 .bottom-menu__link a:focus,
 .bottom-menu__link a:active {
-  color: #229a44;
+  color: var(--dark-red-color);
   text-decoration: none;
 }
 
@@ -373,7 +373,7 @@
 .fa.fa-phone,
 .fa.fa-envelope {
   margin-right: 20px;
-  color: #94070f;
+  color: var(--dark-red-color);
 } 
 
 .bottom-contacts__social {

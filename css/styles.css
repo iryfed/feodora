@@ -11,6 +11,15 @@ html {
   box-sizing: inherit;
 }
 
+:root {
+  --text-color: #000;
+  --sub-title-color: #8993ad;
+  --placeholder-color: #ebebeb;
+  --bg-color-light-section: #fbfbfb;
+  --dark-red-color: #94070f;
+  --dark-green-color: #229a44;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -24,7 +33,7 @@ html, body {
 
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
-  color: #000;
+  color: var(--text-color);
   
   background-color: #fff;
 }
@@ -35,32 +44,32 @@ p {
 }
 
 a {
-  color: #000;
+  color: var(--text-color);
   text-decoration: none;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #229a44;
-  border-bottom: 1px solid #229a44;
+  color: var(--dark-red-color);
+  border-bottom: 1px solid var(--dark-red-color);
 }
 
 .sub-title {
-  color: #8993ad;
+  color: var(--sub-title-color);
 }
 
 .btn-call {
-  color: #229a44;
+  color: var(--dark-red-color);
   background-color: #fff;
-  border: 1px solid #229a44;
+  border: 1px solid var(--dark-red-color);
 }
 
 .btn-call:hover,
 .btn-call:active,
 .btn-call:focus {
   color: #fff;
-  background-color: #229a44;
+  background-color: var(--dark-red-color);
 
   cursor: pointer;
 }
@@ -68,8 +77,8 @@ a:focus {
 .btn-more {
   color: #fff;
   
-  background-color: #94070f;
-  border: 1px solid #94070f;
+  background-color: var(--dark-red-color);
+  border: 1px solid var(--dark-red-color);
 }
 
 .btn-more:hover,
@@ -77,8 +86,8 @@ a:focus {
 .btn-more:active {
   color: #fff;
   
-  background-color: #229a44;
-  border-color: #229a44;
+  background-color: var(--dark-red-color);
+  border-color: var(--dark-red-color);
 
   cursor: pointer;
 }
@@ -90,10 +99,10 @@ a:focus {
 .section-light__div-bottom {
   position: absolute;
   display: block;
-  color: #229a44;
+  color: var(--dark-red-color);
   font-size: 50px;
   font-weight: bold;
-  background-image: linear-gradient(to top right, #229a44, #ff8c5c);
+  background-image: linear-gradient(to top right, var(--dark-red-color), var(--dark-green-color));
   -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
   transition: transform 1s;

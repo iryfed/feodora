@@ -21,7 +21,7 @@
   }
   
   .top-menu__link_active a {
-    color: #229a44;
+    color: var(--dark-green-color);
     border-bottom: none;
   }
   
@@ -38,9 +38,9 @@
     width: 25px;
     margin: 5px 0;
     height: 3px;
-    background: -o-linear-gradient(left, #94070f, #229a44);
-    background: -webkit-gradient(linear, left top, right top, from(#94070f), to(#229a44));
-    background: linear-gradient(to right, #94070f, #229a44);
+    background: -o-linear-gradient(left, var(--dark-red-color), var(--dark-green-color));
+    background: -webkit-gradient(linear, left top, right top, from(var(--dark-red-color)), to(var(--dark-green-color)));
+    background: linear-gradient(to right, var(--dark-red-color), var(--dark-green-color));
   }
   .top-menu-mobile__item_hide {
     display: none;  
@@ -60,9 +60,9 @@
     margin-right: 20px;
     padding: 6px;
     font-size: 12px;
-    color: #229a44;
+    color: var(--dark-green-color);
     background-color: #fff;
-    border: solid 1px #229a44;
+    border: solid 1px var(--dark-green-color);
     border-radius: 50%;
   }
    
@@ -90,9 +90,9 @@
     width: 45px;
     margin: 7px 0;
     height: 5px;
-    background: -o-linear-gradient(left, #94070f, #229a44);
-    background: -webkit-gradient(linear, left top, right top, from(#94070f), to(#229a44));
-    background: linear-gradient(to right, #94070f, #229a44);
+    background: -o-linear-gradient(left, var(--dark-red-color), var(--dark-green-color));
+    background: -webkit-gradient(linear, left top, right top, from(var(--dark-red-color)), to(var(--dark-green-color)));
+    background: linear-gradient(to right, var(--dark-red-color), var(--dark-green-color));
   }
  
   .btn-call-mobile {
@@ -128,8 +128,8 @@
   }
 
   .top-menu__link_active a {
-    color: #229a44;
-    border-bottom: 1px solid #229a44;
+    color: var(--dark-green-color);
+    border-bottom: 1px solid var(--dark-green-color);
   }
   
   .top-contacts__phone {
@@ -141,7 +141,7 @@
 
 .top-nav {
   padding: 30px 0;
-  background-color: #fbfbfb;
+  background-color: var(--bg-color-light-section);
 }
 
 .menu-container {
